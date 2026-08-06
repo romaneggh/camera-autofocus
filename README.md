@@ -9,8 +9,8 @@
 
 This was an individual school research project (2024–2025) exploring how a camera focuses automatically, from two angles:
 
-- **Physics**  the optics of focusing (focal length, lens arrangement, Descartes' conjugation relation) and how they affect image sharpness.
-- **Computing**  detecting sharpness directly from an image, in Python.
+- **Physics**:  the optics of focusing (focal length, lens arrangement, Descartes' conjugation relation) and how they affect image sharpness.
+- **Computing**:  detecting sharpness directly from an image, in Python.
 
 ## The method
 

@@ -24,7 +24,7 @@ This is exactly how a contrast-detection autofocus decides when an image is in f
 
 ## Results
 
-Running the analyzer on the same scene at different focus settings ranks the images correctly: the sharpest photo scores highest, meanwhile the blurriest scores the lowest lowest.
+Running the analyzer on the same scene at different focus settings ranks the images correctly: the sharpest photo scores highest, meanwhile the blurriest scores the lowest.
 
 ## Possible next steps
 

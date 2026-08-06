@@ -1,12 +1,4 @@
-"""
-Image Sharpness Analyzer
-------------------------
-Measures how sharp (in focus) an image is, using the variance of its gradient:
-a sharp image has strong edges -> high gradient variance, while a blurry image
-has soft edges -> low variance. This is the principle behind contrast-detection
-autofocus.
-
-Usage:
+"""Usage:
     python sharpness.py path/to/image.jpg      # score a single image
     python sharpness.py images/                # rank every image in a folder
 """
@@ -30,7 +22,7 @@ def to_grayscale(image):
 
 
 def sharpness_score(image_path):
-    """Return a sharpness score for the image (higher = sharper)."""
+    """Return a sharpness score for the image (higher=sharper)."""
     image = plt.imread(image_path)
     gray = to_grayscale(image)
 
